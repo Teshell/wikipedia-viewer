@@ -1,0 +1,28 @@
+.random-article {
+  margin: 2rem;
+  animation: bounce 0.5s ease infinite alternate;
+}
+
+.random-article-link {
+  color: #c4c4c4;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+.search-input {
+  background-color: #c4c4c4;
+  border-radius: 10rem;
+  border: none;
+
+  padding: 1rem 1.3rem;
+  outline: none;
+
+  width: 19rem;
+}
